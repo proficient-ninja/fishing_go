@@ -4,9 +4,10 @@ export const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* font 설정 */
 input {
- font-family: 'Noto Sans KR', sans-serif !important;
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
 *{
+    background-color: #2C3E50;
   margin:0;
   padding:0;
   box-sizing:border-box;
