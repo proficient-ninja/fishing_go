@@ -7,7 +7,6 @@ input {
   font-family: 'Noto Sans KR', sans-serif !important;
 }
 *{
-    background-color: #2C3E50;
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -28,7 +27,7 @@ button {
   border: 0;
 }
 body{
-  background:#f7f7f7;
+  background-color: #2C3E50;
   /* 스크롤바 제거 */
   &::-webkit-scrollbar {
     display: none;
