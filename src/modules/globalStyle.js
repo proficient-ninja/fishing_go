@@ -12,6 +12,7 @@ input {
   padding:0;
   box-sizing:border-box;
   font-family: 'Noto Sans KR', sans-serif !important;
+  color:white;
   &:focus,&:hover,&:active{
   outline:none !important;
   }

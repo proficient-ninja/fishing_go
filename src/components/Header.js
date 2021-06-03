@@ -1,12 +1,11 @@
 import React from 'react';
 import Styled from 'styled-components';
-import logo from '../img/logo-white.png';
 
 const StyledHeader = Styled.header`
 display:flex;
 justify-content:center;
 width: 100%;
-height: 70px;
+height: 60px;
 padding: 10px 0;
 img{
   height:100%;
@@ -16,7 +15,8 @@ img{
 const Header = () => {
   return (
     <StyledHeader>
-      <img src={logo} alt="logo" />
+      {/* public 폴더에있는 로고사진 */}
+      <img src={process.env.PUBLIC_URL + '/logo-white.png'} alt="logo" />
     </StyledHeader>
   );
 };
